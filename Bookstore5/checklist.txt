@@ -1,0 +1,15 @@
+=== LOGIN & LOGOUT ===
+I. Login
+	1. Tao view login => OKE
+	2. Tao controller (servlet) => OKE
+		2.1. Lay thong tin => OKE
+		2.2. Kiem tra thong tin => OKE
+		2.3. Gui thong tin => OKE
+	3. Test 
+	4. Ket thuc
+	
+II. Logout 
+	1. Tao controller (servlet)
+	2. Xu ly logout (huy session) 
+	3. Tra ve trang chu
+	

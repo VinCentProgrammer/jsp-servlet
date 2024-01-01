@@ -1,0 +1,4 @@
+=== REGISTER ===
+1. Create form register
+2. Style css & Bat event js
+3. Tao controller & xu ly du lieu khi nhan submit
