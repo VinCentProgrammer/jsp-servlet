@@ -1,0 +1,12 @@
+=== TINH NANG THAY DOI MAT KHAU ===
+1. Build View To Change Password => OKE
+2. Create Servlet to solve change pass
+	2.1. Kiem tra mk cu co trong db khong? => OKE
+	2.2. Kiem tra xem mat khau moi da trung vs mat khau moi xac nhan khong? => OKE
+	2.3. Kiem tra xem mat khau moi co trung vs mat khau cu khong? => OKE
+	2.4. Thay doi mat khau thanh cong -> den trang chu => OKE
+	2.5. Bao loi nguoi dung => OKE
+	2.6. ...
+	
+3. Test => OKE
+4. Finished => OKE

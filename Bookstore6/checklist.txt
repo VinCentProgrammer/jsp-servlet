@@ -1,0 +1,7 @@
+==== TAO HAM MA HOA MAT KHAU =====
+1. Tao folder chua class MaHoa => OKE
+2. Viet ham ma hoa mat khau => OKE
+3. Chinh sua du lieu mat khau truoc khi 
+them vao db trang dang ky va dang nhap => OKE
+4. Test => OKE
+5. Ket thuc => OKE

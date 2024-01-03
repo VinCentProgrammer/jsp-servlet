@@ -16,7 +16,7 @@ import model.Customer;
 /**
  * Servlet implementation class LoginController
  */
-@WebServlet("/login-action")
+@WebServlet(name = "/login-action", urlPatterns = "/login-action")
 public class LoginController extends HttpServlet {
 	private static final long serialVersionUID = 1L;
 
@@ -47,25 +47,21 @@ public class LoginController extends HttpServlet {
 
 		request.setAttribute("username", username);
 
-		String url = "/login.jsp";
+		Customer kh = new Customer();
+		kh.setUsername(username);
+		kh.setPassword(password);
 
-		CustomerDAO cd = new CustomerDAO();
-
-		Customer customer = new Customer();
-		customer.setUsername(username);
-		customer.setPassword(password);
-
-		Customer customerLogin = cd.selectUsernameAndPassCustomer(customer);
-		System.out.println(customerLogin);
-
-		if (customerLogin != null) {
+		CustomerDAO khd = new CustomerDAO();
+		Customer khachHang = khd.selectUsernameAndPassCustomer(kh);
+		String url = "";
+		if (khachHang != null) {
 			HttpSession session = request.getSession();
-			session.setAttribute("customerLogin", customerLogin);
+			session.setAttribute("khachHang", khachHang);
 			url = "/index.jsp";
 		} else {
-			request.setAttribute("loginError", "Tên đăng nhập hoặc mật khẩu không đúng!");
+			request.setAttribute("baoLoi", "Tên đăng nhập hoặc mật khẩu không đúng!");
+			url = "/login.jsp";
 		}
-
 		RequestDispatcher rd = getServletContext().getRequestDispatcher(url);
 		rd.forward(request, response);
 	}

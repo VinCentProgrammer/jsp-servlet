@@ -1,0 +1,17 @@
+=== TINH NANG THAY DOI MAT KHAU UPDATE ===
+1. Kiem tra xem khach hang da dang nhap chua -> thay doi mat khau (update) => OKE
+
+
+=== TINH NANG THAY DOI THONG TIN KHACH HANG ===
+1. Tao view update information + Check user login -> update 
+2. Get du lieu ban dau tu session => OKE
+3. Tao servlet -> xu ly update thong tin khach hang => OKE
+	3.1. Xu ly nhu dang ky tai khoan => OKE
+	3.2. Thuc hien update thong tin => OKE
+	3.3. Load lai infor khach hang sau khi da update xuong db => OKE
+	3.4. ...
+	
+4. Test => OKE
+5. Finish => OKE
+
+
