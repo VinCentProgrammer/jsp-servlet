@@ -1,0 +1,6 @@
+==== GOM NHOM CAC SU KIEN ====
+1. Gom nhom cac servlet vao trong 1 servlet => OKE
+2. Gom nhom cac view trong 1 folder => OKE
+3. Chinh sua thong tin action cua cac form => OKE
+4. Test  => OKE
+5. Ket thuc => OKE
