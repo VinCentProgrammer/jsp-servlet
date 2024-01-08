@@ -1,0 +1,6 @@
+	UPLOAD ANH
+	1. Tao view upload file & import lib => OKE
+	2. Cau hinh db & model => OKE
+	3. Xu ly submit form upload file
+	4. Test
+	5. Hoan thanh

@@ -1,0 +1,10 @@
+==== GUI MAIL ====
+0. Chuan bi tai khoan email va mat khau ung dung => OKE
+Username: phpmaster.dungken.dev@gmail.com
+Password: rvez ukqp qcsq ceef
+
+1. Tao class Mail => OKE
+	1.1. Import thu vien mail => OKE
+2. Code Gui mail => OKE
+3. Test => OKE
+4. Finish => OKE

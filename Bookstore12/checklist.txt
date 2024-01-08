@@ -1,0 +1,16 @@
+======== XÁC THỰC TÀI KHOẢN KHÁCH HÀNG QUA EMAIL =======
+1. Thêm trường dữ liệu DB & bổ sung thuộc tính, phương thức cho class Customer => ỌKE
+	- Mã xác thực (verifyCode)
+	- Thời gian xác thực (verifyExpire)
+	- Trạng thái xác thực (verifyStatus)
+	
+2. Xử lý đăng ký thành công thì gửi mã xác thực => OKE
+	- Gửi mã xác thực
+		+ Viết chức năng tạo mã xác thực
+
+	- Viết lại method customerDAO (bổ sung 3 thuộc tính) [insert, selectById,...]
+	- ...
+	
+3. User đã xác thực & cho phép login => OKE
+4. Test => OKE
+5. Kết thúc => OKE
